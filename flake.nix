@@ -17,8 +17,8 @@
         name = "thorium-avx";
         version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_AVX.AppImage";
-          sha256 = "sha256-2PJxnKzppjHrYQnGYYe1BG0075FwDdnjY0JI2X5AIvQ=";
+          url = "https://github.com/Alex313031/thorium/releases/download/M123.0.6312.133/Thorium_Browser_123.0.6312.133_AVX.AppImage";
+          sha256 = "sha256-JBbpQLXp4jxDb7/BH4SmH7wIPoXdAsZgc+6cFcGriWg=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
       in
@@ -37,8 +37,8 @@
         name = "thorium-avx2";
         version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_AVX2.AppImage";
-          sha256 = "sha256-HANrDUv/oFW2uWLSYilTCzdnZDY1yuqhLo/jRQil3QA=";
+          url = "https://github.com/Alex313031/thorium/releases/download/M123.0.6312.133/Thorium_Browser_123.0.6312.133_AVX2.AppImage";
+          sha256 = "sha256-PhFJD9AhSYczakAsPspPtCw21XUxqldr+HkxNqbgs/s=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
       in
@@ -57,8 +57,8 @@
         name = "thorium-sse3";
         version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_SSE3.AppImage";
-          sha256 = "sha256-G+Z85w7d7YT/03tqcH1VMJGoenoegcttbxz38u0JWcI=";
+          url = "https://github.com/Alex313031/thorium/releases/download/M123.0.6312.133/Thorium_Browser_123.0.6312.133_SSE3.AppImage";
+          sha256 = "sha256-cP8PiGwscVg29Rn2WpazqGZuS6aLIW9WjmZhcsWUSUU=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
       in
@@ -102,8 +102,8 @@
         name = "thorium";
         version = "122.0.6261.132 - 6";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M122.0.6261.132/Thorium_Browser_122.0.6261.132_arm64.AppImage";
-          sha256 = "sha256-gS3/f7wq5adOLZuS2T8SWfme/Z1bFqHSpMLUsENKlcw=";
+          url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M123.0.6312.133/Thorium_Browser_123.0.6312.133_arm64.AppImage";
+          sha256 = "sha256-9lSVOsiMjpxAK9/nNBVgxUPqwPyeAFDOKSab/sSNGho=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
       in
